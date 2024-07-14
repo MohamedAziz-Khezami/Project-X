@@ -7,7 +7,7 @@ import numpy as np
 import yfinance as yf
 
 
-sp500 =yf.download("^GSPC", start="2023-01-01", end="2024-07-12")
+sp500 =pd.read_csv('/Users/mak/Desktop/Code_With_Me/Sentiment project/sp500.csv')
 
 sp500 = sp500.reset_index()
 

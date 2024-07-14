@@ -5,14 +5,14 @@ from airflow.decorators import dag, task, task_group
 from airflow.models import Variable
 from requests.adapters import HTTPAdapter
 from urllib3 import Retry
-import duckdb
 import pandas as pd
 from newsdataapi import NewsDataApiClient
 import datetime as dt
 from pysentimiento import create_analyzer
 from prophet import Prophet
 import csv
-
+import duckdb
+import yfinance as yf
 
 
 sentiments = create_analyzer(task="sentiment", lang="en")
@@ -22,7 +22,7 @@ apikey = "pub_484350d0460b3a6d9a45319e3f2fcfe2f8dc3"
 
 
 
-@dag('pleaserun',start_date=dt.datetime.now(), schedule_interval='*/7 * * * *')
+@dag('pleaserun',start_date=dt.datetime.now(), schedule_interval='*/10 * * * *')
 def dag1():
 
     @task
@@ -71,6 +71,7 @@ def dag1():
         
         articles = articles[['ds', 'negative', 'positive', 'neutral', 'anger', 'disgust', 'fear', 'joy', 'sadness', 'surprise', 'others']]
         
+        articles.to_csv('no_close_fit.csv',index=False)
         
         return articles
             
@@ -109,6 +110,19 @@ def dag1():
             writer = csv.writer(csvfile)
             # Write the new row data
             writer.writerow(row)
+            
+            
+    @task
+    def get_sp500():
+        
+        sp = yf.download("^GSPC", start="2022-01-01", end=dt.date.today())
+        
+        sp = sp.reset_index()
+        
+        sp = sp[['Date', 'Close']]
+        
+        sp.to_csv('sp500.csv',index=False)
+
 
     
 
@@ -117,6 +131,8 @@ def dag1():
     articles_sentiments = get_sentiments(articles)
 
     fit_prediction(articles_sentiments)
+    
+    get_sp500()
     
     
     
