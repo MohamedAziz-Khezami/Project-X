@@ -1,0 +1,28 @@
+[2024-07-13T19:31:12.841+0100] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-13T19:31:13.088+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hhh.fit_prediction manual__2024-07-13T18:29:08.946484+00:00 [queued]>
+[2024-07-13T19:31:13.106+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hhh.fit_prediction manual__2024-07-13T18:29:08.946484+00:00 [queued]>
+[2024-07-13T19:31:13.106+0100] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-07-13T19:31:13.118+0100] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): fit_prediction> on 2024-07-13 18:29:08.946484+00:00
+[2024-07-13T19:31:13.137+0100] {logging_mixin.py:188} WARNING - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=9641) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-07-13T19:31:13.139+0100] {standard_task_runner.py:63} INFO - Started process 9654 to run task
+[2024-07-13T19:31:13.139+0100] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'hhh', 'fit_prediction', 'manual__2024-07-13T18:29:08.946484+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/dg1.py', '--cfg-path', '/var/folders/ml/zd6cs33j1gs1prd5lpns9pnc0000gn/T/tmprokwseuj']
+[2024-07-13T19:31:13.141+0100] {standard_task_runner.py:91} INFO - Job 43: Subtask fit_prediction
+[2024-07-13T19:31:13.201+0100] {task_command.py:426} INFO - Running <TaskInstance: hhh.fit_prediction manual__2024-07-13T18:29:08.946484+00:00 [running]> on host MAKs-MacBook-Pro.local
+[2024-07-13T19:31:13.405+0100] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='hhh' AIRFLOW_CTX_TASK_ID='fit_prediction' AIRFLOW_CTX_EXECUTION_DATE='2024-07-13T18:29:08.946484+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-13T18:29:08.946484+00:00'
+[2024-07-13T19:31:13.407+0100] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-13T19:31:13.958+0100] {forecaster.py:961} INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+[2024-07-13T19:31:14.215+0100] {filesystem.py:118} DEBUG - input tempfile: /var/folders/ml/zd6cs33j1gs1prd5lpns9pnc0000gn/T/tmp7zb4efaj/58ba9vsv.json
+[2024-07-13T19:31:17.258+0100] {filesystem.py:118} DEBUG - input tempfile: /var/folders/ml/zd6cs33j1gs1prd5lpns9pnc0000gn/T/tmp7zb4efaj/jaz48ffc.json
+[2024-07-13T19:31:17.260+0100] {model.py:2042} DEBUG - idx 0
+[2024-07-13T19:31:17.261+0100] {model.py:2043} DEBUG - running CmdStan, num_threads: None
+[2024-07-13T19:31:17.261+0100] {model.py:2055} DEBUG - CmdStan args: ['/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=88923', 'data', 'file=/var/folders/ml/zd6cs33j1gs1prd5lpns9pnc0000gn/T/tmp7zb4efaj/58ba9vsv.json', 'init=/var/folders/ml/zd6cs33j1gs1prd5lpns9pnc0000gn/T/tmp7zb4efaj/jaz48ffc.json', 'output', 'file=/var/folders/ml/zd6cs33j1gs1prd5lpns9pnc0000gn/T/tmp7zb4efaj/prophet_model3nwjv8w_/prophet_model-20240713193117.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+[2024-07-13T19:31:17.262+0100] {logging_mixin.py:188} WARNING - 19:31:17 - cmdstanpy - INFO - Chain [1] start processing
+[2024-07-13T19:31:17.261+0100] {model.py:2058} INFO - Chain [1] start processing
+[2024-07-13T19:32:36.027+0100] {logging_mixin.py:188} WARNING - 19:32:36 - cmdstanpy - INFO - Chain [1] done processing
+[2024-07-13T19:32:36.026+0100] {model.py:2115} INFO - Chain [1] done processing
+[2024-07-13T19:32:36.225+0100] {python.py:237} INFO - Done. Returned value was: None
+[2024-07-13T19:32:36.226+0100] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-13T19:32:36.233+0100] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=hhh, task_id=fit_prediction, run_id=manual__2024-07-13T18:29:08.946484+00:00, execution_date=20240713T182908, start_date=20240713T183113, end_date=20240713T183236
+[2024-07-13T19:32:36.286+0100] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-07-13T19:32:36.302+0100] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-07-13T19:32:36.303+0100] {local_task_job_runner.py:222} INFO - ::endgroup::

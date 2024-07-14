@@ -1,0 +1,1624 @@
+[2024-07-13T16:34:22.967+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T16:34:22.967+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T16:34:22.967+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/airflow/dags every 300 seconds
+[2024-07-13T16:34:22.968+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/airflow/dags
+[2024-07-13T16:34:23.050+0100] {manager.py:740} INFO - There are 51 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/airflow/dags
+[2024-07-13T16:34:26.291+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  3.00s           2024-07-13T15:34:26
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py                                                               0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_complex.py                                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py                                                           0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py                                                             0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py                                                            0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py                                                             0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py                                                                0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial.py                                                                          0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py                                                          0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py                                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py                                                                      0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py                                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py                                                              0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py                                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py                                                                      0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py                                                            0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py                                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py                                                           0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0
+================================================================================
+[2024-07-13T16:34:58.336+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  1           0  4.19s           2024-07-13T15:34:50
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  4.00s           2024-07-13T15:34:31
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  3.97s           2024-07-13T15:34:44
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  3.85s           2024-07-13T15:34:36
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  3.27s           2024-07-13T15:34:39
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  3.19s           2024-07-13T15:34:58
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  3.00s           2024-07-13T15:34:26
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  2.97s           2024-07-13T15:34:54
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py                                                               0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_complex.py                                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py                                                           0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py                                                             0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py                                                            0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py                                                             0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py                                                                0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial.py                                                                          0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py                                                          0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py                                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py                                                                      0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py                                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py                                                              0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py                                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py                                                                      0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py                                                            0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py                                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py                                                           0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      0           0
+================================================================================
+[2024-07-13T16:35:29.049+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  6.82s           2024-07-13T15:35:12
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  5.97s           2024-07-13T15:35:23
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  5.17s           2024-07-13T15:35:04
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  1           0  4.19s           2024-07-13T15:34:50
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  4.14s           2024-07-13T15:35:29
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  4.00s           2024-07-13T15:34:31
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  3.97s           2024-07-13T15:34:44
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  3.85s           2024-07-13T15:34:36
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  3.57s           2024-07-13T15:35:17
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  3.27s           2024-07-13T15:34:39
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  3.19s           2024-07-13T15:34:58
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  3.00s           2024-07-13T15:34:26
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  2.97s           2024-07-13T15:34:54
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py                                                               0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_complex.py                                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py                                                           0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py                                                             0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py                                                            0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py                                                             0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py                                                                0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py                                                          0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py                                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py                                                              0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py                                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py                                                            0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py                                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py                                                           0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      0           0
+================================================================================
+[2024-07-13T16:36:00.485+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  7.50s           2024-07-13T15:35:47
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  6.82s           2024-07-13T15:35:12
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  5.97s           2024-07-13T15:35:23
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  5.17s           2024-07-13T15:35:04
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  4.78s           2024-07-13T15:35:38
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  1           0  4.19s           2024-07-13T15:34:50
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  4.14s           2024-07-13T15:35:29
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  4.00s           2024-07-13T15:34:31
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  3.97s           2024-07-13T15:34:44
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  3.85s           2024-07-13T15:34:36
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  3.79s           2024-07-13T15:35:33
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  3.73s           2024-07-13T15:36:00
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  3.57s           2024-07-13T15:35:17
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  3.27s           2024-07-13T15:34:39
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  3.19s           2024-07-13T15:34:58
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  3.00s           2024-07-13T15:34:26
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  3.00s           2024-07-13T15:35:55
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  2.99s           2024-07-13T15:35:51
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  2.97s           2024-07-13T15:34:54
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py                                                               0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_complex.py                                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py                                                           0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py                                                             0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py                                                            0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py                                                             0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py                                                          0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py                                                              0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py                                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py                                                            0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py                                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      0           0
+================================================================================
+[2024-07-13T16:36:30.775+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  7.50s           2024-07-13T15:35:47
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  6.82s           2024-07-13T15:35:12
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  5.97s           2024-07-13T15:35:23
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  5.17s           2024-07-13T15:35:04
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  4.78s           2024-07-13T15:35:38
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  1           0  4.19s           2024-07-13T15:34:50
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  4.14s           2024-07-13T15:35:29
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  4.06s           2024-07-13T15:36:04
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  4.00s           2024-07-13T15:34:31
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  3.97s           2024-07-13T15:34:44
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  3.85s           2024-07-13T15:34:36
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  3.79s           2024-07-13T15:35:33
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  3.73s           2024-07-13T15:36:00
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  3.62s           2024-07-13T15:36:27
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  3.57s           2024-07-13T15:35:17
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  3.27s           2024-07-13T15:34:39
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  3.19s           2024-07-13T15:34:58
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  3.00s           2024-07-13T15:34:26
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  3.00s           2024-07-13T15:35:55
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  2.99s           2024-07-13T15:35:51
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  2.97s           2024-07-13T15:34:54
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  2.78s           2024-07-13T15:36:15
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  2.66s           2024-07-13T15:36:22
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  2.66s           2024-07-13T15:36:12
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  2.50s           2024-07-13T15:36:08
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  2.50s           2024-07-13T15:36:30
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  2.47s           2024-07-13T15:36:19
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py                                                               0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_complex.py                                                                   0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py                                                             0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py                                                             0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py                                                          0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py                                                              0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py                                                            0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        0           0
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      0           0
+================================================================================
+[2024-07-13T16:36:44.998+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T16:37:23.304+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T16:37:23.304+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T16:37:23.304+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/airflow/dags every 300 seconds
+[2024-07-13T16:37:23.305+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/airflow/dags
+[2024-07-13T16:37:23.305+0100] {manager.py:740} INFO - There are 0 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/airflow/dags
+[2024-07-13T16:37:58.553+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T16:38:37.961+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T16:38:37.961+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T16:38:37.962+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/airflow/dags every 300 seconds
+[2024-07-13T16:38:37.962+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/airflow/dags
+[2024-07-13T16:38:37.962+0100] {manager.py:740} INFO - There are 0 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/airflow/dags
+[2024-07-13T16:39:57.030+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T18:11:52.417+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T18:11:52.419+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T18:11:52.420+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T18:11:52.420+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:11:52.424+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:12:22.952+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           0           0  30.29s          2024-07-13T17:12:22
+================================================================================
+[2024-07-13T18:13:24.059+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           0           0  30.90s          2024-07-13T17:13:24
+================================================================================
+[2024-07-13T18:14:17.216+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           0           0  25.00s          2024-07-13T17:14:17
+================================================================================
+[2024-07-13T18:14:48.655+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           0           0  29.27s          2024-07-13T17:14:48
+================================================================================
+[2024-07-13T18:15:19.354+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           0           0  17.77s          2024-07-13T17:15:11
+================================================================================
+[2024-07-13T18:16:01.926+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           0           0  20.65s          2024-07-13T17:16:01
+================================================================================
+[2024-07-13T18:16:53.388+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           0           0  21.33s          2024-07-13T17:16:53
+================================================================================
+[2024-07-13T18:16:54.470+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:16:54.481+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:17:23.942+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           0           0  22.93s          2024-07-13T17:17:20
+================================================================================
+[2024-07-13T18:17:54.842+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           0           1  2.87s           2024-07-13T17:17:53
+================================================================================
+[2024-07-13T18:18:32.073+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           0           0  16.01s          2024-07-13T17:18:32
+================================================================================
+[2024-07-13T18:19:02.170+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           0           1  6.93s           2024-07-13T17:18:58
+================================================================================
+[2024-07-13T18:19:36.999+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           0           0  30.45s          2024-07-13T17:19:36
+================================================================================
+[2024-07-13T18:20:25.599+0100] {manager.py:1016} ERROR - Processor for /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py exited with return code 1.
+[2024-07-13T18:20:25.602+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           0          -1  40.35s          2024-07-13T17:20:25
+================================================================================
+[2024-07-13T18:20:46.774+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T18:21:34.512+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T18:21:34.514+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T18:21:34.515+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T18:21:34.515+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:21:34.520+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:22:04.154+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           0           1  29.38s          2024-07-13T17:22:04
+================================================================================
+[2024-07-13T18:22:59.461+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           0           1  25.06s          2024-07-13T17:22:59
+================================================================================
+[2024-07-13T18:23:45.277+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           0           1  21.24s          2024-07-13T17:23:45
+================================================================================
+[2024-07-13T18:24:33.932+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  24.29s          2024-07-13T17:24:33
+================================================================================
+[2024-07-13T18:25:13.060+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T18:26:02.900+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T18:26:02.902+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T18:26:02.902+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T18:26:02.903+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:26:02.907+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:26:28.109+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  24.97s          2024-07-13T17:26:28
+================================================================================
+[2024-07-13T18:27:15.343+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  17.06s          2024-07-13T17:27:15
+================================================================================
+[2024-07-13T18:28:08.742+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  23.22s          2024-07-13T17:28:08
+================================================================================
+[2024-07-13T18:29:07.636+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  28.75s          2024-07-13T17:29:07
+================================================================================
+[2024-07-13T18:29:53.779+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  14.36s          2024-07-13T17:29:53
+================================================================================
+[2024-07-13T18:31:06.111+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  19.27s          2024-07-13T17:31:06
+================================================================================
+[2024-07-13T18:31:07.183+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:31:07.188+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:31:50.715+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  14.49s          2024-07-13T17:31:50
+================================================================================
+[2024-07-13T18:32:37.811+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  16.98s          2024-07-13T17:32:37
+================================================================================
+[2024-07-13T18:33:37.461+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  29.53s          2024-07-13T17:33:37
+================================================================================
+[2024-07-13T18:34:38.461+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T18:34:42.225+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T18:34:42.225+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T18:34:42.225+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T18:34:42.226+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:34:42.228+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:34:58.668+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  16.11s          2024-07-13T17:34:58
+================================================================================
+[2024-07-13T18:36:07.084+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T18:36:10.578+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T18:36:10.578+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T18:36:10.579+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T18:36:10.579+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:36:10.582+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:36:28.688+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  17.84s          2024-07-13T17:36:28
+================================================================================
+[2024-07-13T18:37:28.535+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  14.80s          2024-07-13T17:37:28
+================================================================================
+[2024-07-13T18:38:24.264+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  25.56s          2024-07-13T17:38:24
+================================================================================
+[2024-07-13T18:38:36.925+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T18:39:56.948+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T18:39:56.950+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T18:39:56.950+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T18:39:56.950+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:39:56.956+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:40:28.089+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  30.89s          2024-07-13T17:40:28
+================================================================================
+[2024-07-13T18:41:44.121+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  15.70s          2024-07-13T17:41:44
+================================================================================
+[2024-07-13T18:42:50.860+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  18.25s          2024-07-13T17:42:50
+================================================================================
+[2024-07-13T18:43:37.767+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  16.79s          2024-07-13T17:43:37
+================================================================================
+[2024-07-13T18:44:08.575+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  21.51s          2024-07-13T17:44:05
+================================================================================
+[2024-07-13T18:44:37.727+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T18:45:50.301+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T18:45:50.302+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T18:45:50.303+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T18:45:50.304+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:45:50.308+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:46:11.974+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  21.43s          2024-07-13T17:46:11
+================================================================================
+[2024-07-13T18:47:14.969+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  32.74s          2024-07-13T17:47:14
+================================================================================
+[2024-07-13T18:48:09.429+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  19.48s          2024-07-13T17:48:09
+================================================================================
+[2024-07-13T18:49:16.798+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  17.55s          2024-07-13T17:49:16
+================================================================================
+[2024-07-13T18:51:23.439+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T18:51:27.550+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T18:51:27.550+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T18:51:27.551+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T18:51:27.551+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:51:27.554+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:51:50.733+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  22.88s          2024-07-13T17:51:50
+================================================================================
+[2024-07-13T18:52:02.476+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T18:52:36.456+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T18:52:36.457+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T18:52:36.457+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T18:52:36.458+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:52:36.460+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:53:06.295+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  29.57s          2024-07-13T17:53:06
+================================================================================
+[2024-07-13T18:54:06.453+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  12.06s          2024-07-13T17:54:06
+================================================================================
+[2024-07-13T18:54:59.922+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T18:55:03.518+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T18:55:03.519+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T18:55:03.520+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T18:55:03.520+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:55:03.523+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T18:55:17.664+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  13.89s          2024-07-13T17:55:17
+================================================================================
+[2024-07-13T19:00:02.800+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T19:00:07.645+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T19:00:07.646+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T19:00:07.646+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T19:00:07.647+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:00:07.666+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:00:27.931+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T19:01:19.940+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T19:01:19.964+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T19:01:19.965+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T19:01:19.965+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:01:19.969+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:02:00.558+0100] {manager.py:1016} ERROR - Processor for /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py exited with return code 1.
+[2024-07-13T19:02:00.577+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           0          -1  39.54s          2024-07-13T18:02:00
+================================================================================
+[2024-07-13T19:04:11.057+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T19:04:15.558+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T19:04:15.560+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T19:04:15.561+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T19:04:15.563+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:04:15.567+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:04:38.012+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  21.86s          2024-07-13T18:04:37
+================================================================================
+[2024-07-13T19:06:57.710+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T19:07:01.217+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T19:07:01.217+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T19:07:01.217+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T19:07:01.218+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:07:01.222+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:07:16.356+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  14.84s          2024-07-13T18:07:16
+================================================================================
+[2024-07-13T19:15:11.938+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T19:17:51.789+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T19:17:51.791+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T19:17:51.791+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T19:17:51.792+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:17:51.795+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:18:20.645+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  28.61s          2024-07-13T18:18:20
+================================================================================
+[2024-07-13T19:19:15.301+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  17.17s          2024-07-13T18:19:15
+================================================================================
+[2024-07-13T19:20:19.407+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  17.38s          2024-07-13T18:20:19
+================================================================================
+[2024-07-13T19:22:34.604+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T19:22:38.606+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T19:22:38.606+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T19:22:38.607+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T19:22:38.607+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:22:38.610+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:23:10.799+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  31.85s          2024-07-13T18:23:10
+================================================================================
+[2024-07-13T19:26:27.845+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T19:26:35.393+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T19:26:35.394+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T19:26:35.394+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T19:26:35.394+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:26:35.399+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:26:39.351+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           0           1  3.66s           2024-07-13T18:26:39
+================================================================================
+[2024-07-13T19:27:10.714+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T19:28:05.168+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T19:28:05.169+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T19:28:05.170+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T19:28:05.170+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:28:05.172+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:28:25.636+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  20.23s          2024-07-13T18:28:25
+================================================================================
+[2024-07-13T19:29:33.551+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  37.68s          2024-07-13T18:29:33
+================================================================================
+[2024-07-13T19:30:52.460+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  22.31s          2024-07-13T18:30:52
+================================================================================
+[2024-07-13T19:32:37.661+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T19:32:41.123+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T19:32:41.123+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T19:32:41.123+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T19:32:41.124+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:32:41.127+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:33:02.888+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  21.50s          2024-07-13T18:33:02
+================================================================================
+[2024-07-13T19:33:06.033+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T19:35:08.293+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T19:35:08.294+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T19:35:08.294+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T19:35:08.294+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:35:08.297+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:35:43.209+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  34.67s          2024-07-13T18:35:43
+================================================================================
+[2024-07-13T19:36:35.875+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  18.82s          2024-07-13T18:36:35
+================================================================================
+[2024-07-13T19:37:32.784+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  14.83s          2024-07-13T18:37:32
+================================================================================
+[2024-07-13T19:39:41.597+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T19:39:45.974+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T19:39:45.974+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T19:39:45.974+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T19:39:45.975+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:39:45.979+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:39:55.227+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T19:45:20.950+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T19:45:20.951+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T19:45:20.951+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T19:45:20.952+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:45:20.955+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:45:51.778+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  29.41s          2024-07-13T18:45:51
+================================================================================
+[2024-07-13T19:46:49.774+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  17.36s          2024-07-13T18:46:49
+================================================================================
+[2024-07-13T19:49:16.696+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T19:49:22.194+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T19:49:22.195+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T19:49:22.195+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T19:49:22.195+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:49:22.199+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:49:55.657+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  33.14s          2024-07-13T18:49:55
+================================================================================
+[2024-07-13T19:51:05.983+0100] {manager.py:1016} ERROR - Processor for /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py exited with return code -9.
+[2024-07-13T19:51:05.993+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           0          -1  40.12s          2024-07-13T18:51:05
+================================================================================
+[2024-07-13T19:52:08.223+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  31.85s          2024-07-13T18:52:08
+================================================================================
+[2024-07-13T19:53:15.331+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  36.89s          2024-07-13T18:53:15
+================================================================================
+[2024-07-13T19:54:20.741+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  35.20s          2024-07-13T18:54:20
+================================================================================
+[2024-07-13T19:54:22.951+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:54:22.967+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:55:10.344+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  19.31s          2024-07-13T18:55:10
+================================================================================
+[2024-07-13T19:55:59.888+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  19.43s          2024-07-13T18:55:59
+================================================================================
+[2024-07-13T19:57:04.276+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  34.26s          2024-07-13T18:57:04
+================================================================================
+[2024-07-13T19:57:49.701+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  15.28s          2024-07-13T18:57:49
+================================================================================
+[2024-07-13T19:58:35.377+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  15.56s          2024-07-13T18:58:35
+================================================================================
+[2024-07-13T19:59:26.351+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  20.88s          2024-07-13T18:59:26
+================================================================================
+[2024-07-13T19:59:27.443+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T19:59:27.448+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:00:21.731+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  25.25s          2024-07-13T19:00:21
+================================================================================
+[2024-07-13T20:01:16.203+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  24.28s          2024-07-13T19:01:16
+================================================================================
+[2024-07-13T20:02:17.022+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  30.72s          2024-07-13T19:02:17
+================================================================================
+[2024-07-13T20:03:01.760+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  14.59s          2024-07-13T19:03:01
+================================================================================
+[2024-07-13T20:03:45.642+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  13.78s          2024-07-13T19:03:45
+================================================================================
+[2024-07-13T20:04:30.534+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  14.80s          2024-07-13T19:04:30
+================================================================================
+[2024-07-13T20:04:31.592+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:04:31.597+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:05:21.169+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  20.53s          2024-07-13T19:05:21
+================================================================================
+[2024-07-13T20:06:15.463+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  24.02s          2024-07-13T19:06:15
+================================================================================
+[2024-07-13T20:06:58.620+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  13.01s          2024-07-13T19:06:58
+================================================================================
+[2024-07-13T20:07:46.155+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  17.44s          2024-07-13T19:07:46
+================================================================================
+[2024-07-13T20:08:34.118+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  17.91s          2024-07-13T19:08:34
+================================================================================
+[2024-07-13T20:09:21.308+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  17.10s          2024-07-13T19:09:21
+================================================================================
+[2024-07-13T20:09:32.506+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:09:32.511+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:10:03.873+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  12.47s          2024-07-13T19:10:03
+================================================================================
+[2024-07-13T20:10:57.063+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  23.09s          2024-07-13T19:10:57
+================================================================================
+[2024-07-13T20:11:06.488+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T20:13:54.746+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T20:13:54.750+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T20:13:54.751+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T20:13:54.752+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:13:54.756+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:14:23.191+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  28.03s          2024-07-13T19:14:23
+================================================================================
+[2024-07-13T20:15:20.399+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  20.45s          2024-07-13T19:15:20
+================================================================================
+[2024-07-13T20:17:25.954+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T20:17:28.977+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T20:17:28.977+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T20:17:28.977+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T20:17:28.978+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:17:28.979+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:17:42.067+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  12.86s          2024-07-13T19:17:42
+================================================================================
+[2024-07-13T20:18:28.254+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  16.06s          2024-07-13T19:18:28
+================================================================================
+[2024-07-13T20:19:11.914+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  13.57s          2024-07-13T19:19:11
+================================================================================
+[2024-07-13T20:20:12.746+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  29.55s          2024-07-13T19:20:12
+================================================================================
+[2024-07-13T20:21:16.052+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  33.19s          2024-07-13T19:21:16
+================================================================================
+[2024-07-13T20:22:03.441+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  16.65s          2024-07-13T19:22:03
+================================================================================
+[2024-07-13T20:22:29.667+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:22:29.685+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:22:48.789+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  15.23s          2024-07-13T19:22:48
+================================================================================
+[2024-07-13T20:23:47.313+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  28.35s          2024-07-13T19:23:47
+================================================================================
+[2024-07-13T20:24:36.617+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  18.71s          2024-07-13T19:24:36
+================================================================================
+[2024-07-13T20:25:18.903+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  12.15s          2024-07-13T19:25:18
+================================================================================
+[2024-07-13T20:26:15.300+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                           1           0  17.27s          2024-07-13T19:26:15
+================================================================================
+[2024-07-13T20:27:53.693+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T20:30:34.599+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T20:30:34.600+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T20:30:34.600+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T20:30:34.601+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:30:34.616+0100] {manager.py:740} INFO - There are 2 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:31:11.366+0100] {manager.py:1016} ERROR - Processor for /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py exited with return code 1.
+[2024-07-13T20:31:11.399+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           0          -1  36.43s          2024-07-13T19:31:11
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                            0           0
+================================================================================
+[2024-07-13T20:31:49.707+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py                            1           0  37.10s          2024-07-13T19:31:49
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           0          -1  36.43s          2024-07-13T19:31:11
+================================================================================
+[2024-07-13T20:32:10.807+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T20:33:03.670+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T20:33:03.671+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T20:33:03.671+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T20:33:03.672+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:33:03.676+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:33:25.375+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           0           1  21.20s          2024-07-13T19:33:25
+================================================================================
+[2024-07-13T20:33:59.903+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T20:34:27.715+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T20:34:27.715+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T20:34:27.716+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T20:34:27.716+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:34:27.719+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:34:51.915+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  23.96s          2024-07-13T19:34:51
+================================================================================
+[2024-07-13T20:35:43.368+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  21.22s          2024-07-13T19:35:43
+================================================================================
+[2024-07-13T20:36:35.319+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  21.80s          2024-07-13T19:36:35
+================================================================================
+[2024-07-13T20:37:28.064+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  22.55s          2024-07-13T19:37:28
+================================================================================
+[2024-07-13T20:38:13.717+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  15.43s          2024-07-13T19:38:13
+================================================================================
+[2024-07-13T20:39:19.719+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  19.28s          2024-07-13T19:39:19
+================================================================================
+[2024-07-13T20:39:46.560+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:39:46.596+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:41:53.142+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T20:41:56.737+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T20:41:56.737+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T20:41:56.737+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T20:41:56.738+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:41:56.741+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:42:17.774+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  20.68s          2024-07-13T19:42:17
+================================================================================
+[2024-07-13T20:43:10.650+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  22.70s          2024-07-13T19:43:10
+================================================================================
+[2024-07-13T20:43:50.415+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T20:45:54.977+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T20:45:54.978+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T20:45:54.979+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T20:45:54.980+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:45:54.983+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:46:19.314+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  24.10s          2024-07-13T19:46:19
+================================================================================
+[2024-07-13T20:47:09.110+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  19.50s          2024-07-13T19:47:09
+================================================================================
+[2024-07-13T20:48:02.846+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  23.63s          2024-07-13T19:48:02
+================================================================================
+[2024-07-13T20:49:00.375+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  27.43s          2024-07-13T19:49:00
+================================================================================
+[2024-07-13T20:49:54.837+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  24.32s          2024-07-13T19:49:54
+================================================================================
+[2024-07-13T20:50:58.287+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  20.22s          2024-07-13T19:50:58
+================================================================================
+[2024-07-13T20:52:41.479+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T20:52:44.849+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T20:52:44.849+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T20:52:44.849+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T20:52:44.850+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:52:44.853+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:53:05.126+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  20.02s          2024-07-13T19:53:05
+================================================================================
+[2024-07-13T20:53:46.950+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  11.70s          2024-07-13T19:53:46
+================================================================================
+[2024-07-13T20:54:29.972+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  12.93s          2024-07-13T19:54:29
+================================================================================
+[2024-07-13T20:55:13.493+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  13.43s          2024-07-13T19:55:13
+================================================================================
+[2024-07-13T20:56:00.714+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  17.08s          2024-07-13T19:56:00
+================================================================================
+[2024-07-13T20:56:56.684+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  13.37s          2024-07-13T19:56:56
+================================================================================
+[2024-07-13T20:58:32.000+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T20:58:35.192+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T20:58:35.192+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T20:58:35.193+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T20:58:35.193+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:58:35.196+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T20:58:49.424+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  13.98s          2024-07-13T19:58:49
+================================================================================
+[2024-07-13T20:59:37.068+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  17.52s          2024-07-13T19:59:37
+================================================================================
+[2024-07-13T21:00:32.727+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  11.90s          2024-07-13T20:00:32
+================================================================================
+[2024-07-13T21:02:40.034+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T21:02:43.049+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T21:02:43.049+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T21:02:43.049+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T21:02:43.050+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T21:02:43.054+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T21:02:58.890+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  15.60s          2024-07-13T20:02:58
+================================================================================
+[2024-07-13T21:03:51.511+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  22.48s          2024-07-13T20:03:51
+================================================================================
+[2024-07-13T21:04:35.162+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  13.55s          2024-07-13T20:04:35
+================================================================================
+[2024-07-13T21:05:17.790+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  12.50s          2024-07-13T20:05:17
+================================================================================
+[2024-07-13T21:05:59.595+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  11.71s          2024-07-13T20:05:59
+================================================================================
+[2024-07-13T21:06:41.787+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  12.10s          2024-07-13T20:06:41
+================================================================================
+[2024-07-13T21:07:49.053+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  19.23s          2024-07-13T20:07:49
+================================================================================
+[2024-07-13T21:08:17.245+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T21:08:17.249+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T21:10:06.563+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-13T21:10:09.700+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2024-07-13T21:10:09.701+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-13T21:10:09.701+0100] {manager.py:472} INFO - Checking for new files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags every 300 seconds
+[2024-07-13T21:10:09.701+0100] {manager.py:737} INFO - Searching for files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T21:10:09.705+0100] {manager.py:740} INFO - There are 1 files in /Users/mak/Desktop/Code_With_Me/Sentiment project/dags
+[2024-07-13T21:10:27.710+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  17.77s          2024-07-13T20:10:27
+================================================================================
+[2024-07-13T21:11:10.371+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  12.53s          2024-07-13T20:11:10
+================================================================================
+[2024-07-13T21:12:03.971+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  23.50s          2024-07-13T20:12:03
+================================================================================
+[2024-07-13T21:12:46.746+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  12.68s          2024-07-13T20:12:46
+================================================================================
+[2024-07-13T21:13:35.693+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py                           1           0  18.81s          2024-07-13T20:13:35
+================================================================================
+[2024-07-13T21:13:46.456+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15

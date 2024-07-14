@@ -1,0 +1,55 @@
+[2024-07-13T18:49:35.402+0100] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-13T18:49:35.462+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hhh.fit_prediction manual__2024-07-13T17:46:57.754991+00:00 [queued]>
+[2024-07-13T18:49:35.886+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hhh.fit_prediction manual__2024-07-13T17:46:57.754991+00:00 [queued]>
+[2024-07-13T18:49:35.887+0100] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-07-13T18:49:35.899+0100] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): fit_prediction> on 2024-07-13 17:46:57.754991+00:00
+[2024-07-13T18:49:35.919+0100] {logging_mixin.py:188} WARNING - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=7478) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-07-13T18:49:35.923+0100] {standard_task_runner.py:63} INFO - Started process 7496 to run task
+[2024-07-13T18:49:35.925+0100] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'hhh', 'fit_prediction', 'manual__2024-07-13T17:46:57.754991+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/dg1.py', '--cfg-path', '/var/folders/ml/zd6cs33j1gs1prd5lpns9pnc0000gn/T/tmprwuag25e']
+[2024-07-13T18:49:35.928+0100] {standard_task_runner.py:91} INFO - Job 5: Subtask fit_prediction
+[2024-07-13T18:49:36.014+0100] {task_command.py:426} INFO - Running <TaskInstance: hhh.fit_prediction manual__2024-07-13T17:46:57.754991+00:00 [running]> on host MAKs-MacBook-Pro.local
+[2024-07-13T18:49:36.262+0100] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='hhh' AIRFLOW_CTX_TASK_ID='fit_prediction' AIRFLOW_CTX_EXECUTION_DATE='2024-07-13T17:46:57.754991+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-13T17:46:57.754991+00:00'
+[2024-07-13T18:49:36.264+0100] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-13T18:49:37.908+0100] {forecaster.py:961} INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+[2024-07-13T18:49:38.788+0100] {filesystem.py:118} DEBUG - input tempfile: /var/folders/ml/zd6cs33j1gs1prd5lpns9pnc0000gn/T/tmpbq4qw61e/ntcotkcb.json
+[2024-07-13T18:49:45.526+0100] {filesystem.py:118} DEBUG - input tempfile: /var/folders/ml/zd6cs33j1gs1prd5lpns9pnc0000gn/T/tmpbq4qw61e/u2j9sn92.json
+[2024-07-13T18:49:45.535+0100] {model.py:2042} DEBUG - idx 0
+[2024-07-13T18:49:45.536+0100] {model.py:2043} DEBUG - running CmdStan, num_threads: None
+[2024-07-13T18:49:45.536+0100] {model.py:2055} DEBUG - CmdStan args: ['/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=57260', 'data', 'file=/var/folders/ml/zd6cs33j1gs1prd5lpns9pnc0000gn/T/tmpbq4qw61e/ntcotkcb.json', 'init=/var/folders/ml/zd6cs33j1gs1prd5lpns9pnc0000gn/T/tmpbq4qw61e/u2j9sn92.json', 'output', 'file=/var/folders/ml/zd6cs33j1gs1prd5lpns9pnc0000gn/T/tmpbq4qw61e/prophet_model7s5ftjbl/prophet_model-20240713184945.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+[2024-07-13T18:49:45.537+0100] {logging_mixin.py:188} WARNING - 18:49:45 - cmdstanpy - INFO - Chain [1] start processing
+[2024-07-13T18:49:45.537+0100] {model.py:2058} INFO - Chain [1] start processing
+[2024-07-13T18:51:21.256+0100] {logging_mixin.py:188} WARNING - 18:51:21 - cmdstanpy - INFO - Chain [1] done processing
+[2024-07-13T18:51:21.255+0100] {model.py:2115} INFO - Chain [1] done processing
+[2024-07-13T18:51:21.555+0100] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-13T18:51:21.556+0100] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/decorators/base.py", line 265, in execute
+    return_value = super().execute(context)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py", line 101, in fit_prediction
+    row = csv.loc[:,:].tolist()
+          ^^^^^^^
+AttributeError: module 'csv' has no attribute 'loc'
+[2024-07-13T18:51:21.571+0100] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=hhh, task_id=fit_prediction, run_id=manual__2024-07-13T17:46:57.754991+00:00, execution_date=20240713T174657, start_date=20240713T174935, end_date=20240713T175121
+[2024-07-13T18:51:21.588+0100] {standard_task_runner.py:110} ERROR - Failed to execute job 5 for task fit_prediction (module 'csv' has no attribute 'loc'; 7496)
+[2024-07-13T18:51:21.651+0100] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-07-13T18:51:21.674+0100] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-07-13T18:51:21.674+0100] {local_task_job_runner.py:222} INFO - ::endgroup::

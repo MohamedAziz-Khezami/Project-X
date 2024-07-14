@@ -1,0 +1,11 @@
+[2024-07-13T16:36:33.702+0100] {processor.py:161} INFO - Started process (PID=2992) to work on /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-13T16:36:33.703+0100] {processor.py:830} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-07-13T16:36:33.704+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:36:33.704+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-13T16:36:33.750+0100] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-13T16:36:34.022+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:36:34.021+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_python_decorator
+[2024-07-13T16:36:34.032+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:36:34.031+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_python_decorator
+[2024-07-13T16:36:34.040+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:36:34.040+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:example_python_decorator
+[2024-07-13T16:36:34.041+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:36:34.040+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T16:36:34.052+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:36:34.052+0100] {dag.py:3118} INFO - Creating ORM DAG for example_python_decorator
+[2024-07-13T16:36:34.053+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:36:34.053+0100] {dag.py:3954} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-07-13T16:36:34.072+0100] {processor.py:183} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.373 seconds

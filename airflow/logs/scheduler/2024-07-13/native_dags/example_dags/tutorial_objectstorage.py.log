@@ -1,0 +1,11 @@
+[2024-07-13T16:34:57.262+0100] {processor.py:161} INFO - Started process (PID=2904) to work on /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-13T16:34:57.263+0100] {processor.py:830} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-07-13T16:34:57.264+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:34:57.263+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-13T16:34:57.413+0100] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-13T16:34:57.907+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:34:57.906+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:tutorial_objectstorage
+[2024-07-13T16:34:57.918+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:34:57.917+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:tutorial_objectstorage
+[2024-07-13T16:34:57.924+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:34:57.924+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:tutorial_objectstorage
+[2024-07-13T16:34:57.925+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:34:57.924+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T16:34:57.938+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:34:57.938+0100] {dag.py:3118} INFO - Creating ORM DAG for tutorial_objectstorage
+[2024-07-13T16:34:57.939+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:34:57.939+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-07-13T16:34:57.957+0100] {processor.py:183} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.698 seconds

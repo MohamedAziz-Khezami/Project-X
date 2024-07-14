@@ -1,0 +1,58 @@
+[2024-07-13T18:55:33.369+0100] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-13T18:55:33.511+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hhh.fit_prediction manual__2024-07-13T17:46:57.754991+00:00 [queued]>
+[2024-07-13T18:55:33.787+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hhh.fit_prediction manual__2024-07-13T17:46:57.754991+00:00 [queued]>
+[2024-07-13T18:55:33.787+0100] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2024-07-13T18:55:33.800+0100] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): fit_prediction> on 2024-07-13 17:46:57.754991+00:00
+[2024-07-13T18:55:33.820+0100] {logging_mixin.py:188} WARNING - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=7823) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-07-13T18:55:33.822+0100] {standard_task_runner.py:63} INFO - Started process 7834 to run task
+[2024-07-13T18:55:33.823+0100] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'hhh', 'fit_prediction', 'manual__2024-07-13T17:46:57.754991+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/dg1.py', '--cfg-path', '/var/folders/ml/zd6cs33j1gs1prd5lpns9pnc0000gn/T/tmpe7mqdwtk']
+[2024-07-13T18:55:33.826+0100] {standard_task_runner.py:91} INFO - Job 12: Subtask fit_prediction
+[2024-07-13T18:55:33.890+0100] {task_command.py:426} INFO - Running <TaskInstance: hhh.fit_prediction manual__2024-07-13T17:46:57.754991+00:00 [running]> on host MAKs-MacBook-Pro.local
+[2024-07-13T18:55:34.087+0100] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='hhh' AIRFLOW_CTX_TASK_ID='fit_prediction' AIRFLOW_CTX_EXECUTION_DATE='2024-07-13T17:46:57.754991+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-13T17:46:57.754991+00:00'
+[2024-07-13T18:55:34.089+0100] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-13T18:55:34.656+0100] {forecaster.py:961} INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+[2024-07-13T18:55:35.043+0100] {filesystem.py:118} DEBUG - input tempfile: /var/folders/ml/zd6cs33j1gs1prd5lpns9pnc0000gn/T/tmppbn24204/cmjw3e94.json
+[2024-07-13T18:55:37.564+0100] {filesystem.py:118} DEBUG - input tempfile: /var/folders/ml/zd6cs33j1gs1prd5lpns9pnc0000gn/T/tmppbn24204/e2g9ny_0.json
+[2024-07-13T18:55:37.567+0100] {model.py:2042} DEBUG - idx 0
+[2024-07-13T18:55:37.567+0100] {model.py:2043} DEBUG - running CmdStan, num_threads: None
+[2024-07-13T18:55:37.568+0100] {model.py:2055} DEBUG - CmdStan args: ['/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=75902', 'data', 'file=/var/folders/ml/zd6cs33j1gs1prd5lpns9pnc0000gn/T/tmppbn24204/cmjw3e94.json', 'init=/var/folders/ml/zd6cs33j1gs1prd5lpns9pnc0000gn/T/tmppbn24204/e2g9ny_0.json', 'output', 'file=/var/folders/ml/zd6cs33j1gs1prd5lpns9pnc0000gn/T/tmppbn24204/prophet_modelj7ss6ihk/prophet_model-20240713185537.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+[2024-07-13T18:55:37.569+0100] {logging_mixin.py:188} WARNING - 18:55:37 - cmdstanpy - INFO - Chain [1] start processing
+[2024-07-13T18:55:37.568+0100] {model.py:2058} INFO - Chain [1] start processing
+[2024-07-13T18:57:05.547+0100] {logging_mixin.py:188} WARNING - 18:57:05 - cmdstanpy - INFO - Chain [1] done processing
+[2024-07-13T18:57:05.546+0100] {model.py:2115} INFO - Chain [1] done processing
+[2024-07-13T18:57:05.725+0100] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-13T18:57:05.726+0100] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/decorators/base.py", line 265, in execute
+    return_value = super().execute(context)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dg1.py", line 101, in fit_prediction
+    row = prediction.loc[:,:].tolist()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/core/generic.py", line 6296, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'tolist'
+[2024-07-13T18:57:05.746+0100] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=hhh, task_id=fit_prediction, run_id=manual__2024-07-13T17:46:57.754991+00:00, execution_date=20240713T174657, start_date=20240713T175533, end_date=20240713T175705
+[2024-07-13T18:57:05.755+0100] {standard_task_runner.py:110} ERROR - Failed to execute job 12 for task fit_prediction ('DataFrame' object has no attribute 'tolist'; 7834)
+[2024-07-13T18:57:05.773+0100] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-07-13T18:57:05.787+0100] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-07-13T18:57:05.788+0100] {local_task_job_runner.py:222} INFO - ::endgroup::

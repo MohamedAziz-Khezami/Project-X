@@ -1,0 +1,11 @@
+[2024-07-13T16:36:04.113+0100] {processor.py:161} INFO - Started process (PID=2975) to work on /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-13T16:36:04.114+0100] {processor.py:830} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-07-13T16:36:04.115+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:36:04.115+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-13T16:36:04.125+0100] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-13T16:36:04.399+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:36:04.399+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2024-07-13T16:36:04.414+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:36:04.413+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2024-07-13T16:36:04.423+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:36:04.423+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2024-07-13T16:36:04.423+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:36:04.423+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T16:36:04.437+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:36:04.436+0100] {dag.py:3118} INFO - Creating ORM DAG for example_skip_dag
+[2024-07-13T16:36:04.446+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:36:04.445+0100] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-07-12 00:00:00+00:00, run_after=2024-07-13 00:00:00+00:00
+[2024-07-13T16:36:04.464+0100] {processor.py:183} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.354 seconds

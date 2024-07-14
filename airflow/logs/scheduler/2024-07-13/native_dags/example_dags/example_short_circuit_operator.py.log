@@ -1,0 +1,11 @@
+[2024-07-13T16:36:07.677+0100] {processor.py:161} INFO - Started process (PID=2978) to work on /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-07-13T16:36:07.678+0100] {processor.py:830} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-07-13T16:36:07.679+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:36:07.679+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-07-13T16:36:07.707+0100] {processor.py:840} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-07-13T16:36:07.976+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:36:07.975+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:example_short_circuit_operator
+[2024-07-13T16:36:07.985+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:36:07.985+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_short_circuit_operator
+[2024-07-13T16:36:07.992+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:36:07.992+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_short_circuit_operator
+[2024-07-13T16:36:07.993+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:36:07.992+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T16:36:08.004+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:36:08.004+0100] {dag.py:3118} INFO - Creating ORM DAG for example_short_circuit_operator
+[2024-07-13T16:36:08.013+0100] {logging_mixin.py:188} INFO - [2024-07-13T16:36:08.012+0100] {dag.py:3954} INFO - Setting next_dagrun for example_short_circuit_operator to 2024-07-12 00:00:00+00:00, run_after=2024-07-13 00:00:00+00:00
+[2024-07-13T16:36:08.033+0100] {processor.py:183} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.359 seconds

@@ -1,0 +1,355 @@
+[2024-07-13T20:30:37.275+0100] {processor.py:161} INFO - Started process (PID=12231) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:30:37.276+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:30:37.278+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:30:37.277+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:30:45.006+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:30:45.005+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:30:45.011+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:30:45.011+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:31:07.488+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:31:07.446+0100] {timeout.py:68} ERROR - Process timed out, PID: 12231
+[2024-07-13T20:31:54.303+0100] {processor.py:161} INFO - Started process (PID=12354) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:31:54.305+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:31:54.306+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:31:54.306+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:32:03.273+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:32:03.273+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:32:03.276+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:32:03.276+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:33:06.686+0100] {processor.py:161} INFO - Started process (PID=12482) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:33:06.688+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:33:06.689+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:33:06.688+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:33:11.388+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:33:11.388+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:33:11.391+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:33:11.390+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:33:22.935+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:33:22.929+0100] {dagbag.py:355} ERROR - Failed to import: /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py", line 124, in <module>
+    dag1()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/models/dag.py", line 4029, in factory
+    with DAG(
+         ^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/models/dag.py", line 519, in __init__
+    validate_key(dag_id)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'please run' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-07-13T20:33:22.937+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:33:23.088+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 16.404 seconds
+[2024-07-13T20:33:59.893+0100] {processor.py:161} INFO - Started process (PID=12515) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:33:59.894+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:33:59.895+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:33:59.895+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:34:29.736+0100] {processor.py:161} INFO - Started process (PID=12587) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:34:29.737+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:34:29.737+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:34:29.737+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:34:34.117+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:34:34.116+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:34:34.119+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:34:34.118+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:34:48.511+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:34:48.896+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:34:48.896+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T20:34:48.919+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:34:48.919+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 19:36:00+00:00, run_after=2024-07-13 19:42:00+00:00
+[2024-07-13T20:34:48.946+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 19.212 seconds
+[2024-07-13T20:35:24.517+0100] {processor.py:161} INFO - Started process (PID=12640) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:35:24.519+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:35:24.520+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:35:24.520+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:35:29.483+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:35:29.482+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:35:29.486+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:35:29.486+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:35:40.738+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:35:41.060+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:35:41.059+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T20:35:41.083+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:35:41.083+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 19:36:00+00:00, run_after=2024-07-13 19:42:00+00:00
+[2024-07-13T20:35:41.112+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 16.597 seconds
+[2024-07-13T20:36:19.119+0100] {processor.py:161} INFO - Started process (PID=12659) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:36:19.121+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:36:19.121+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:36:19.121+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:36:24.638+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:36:24.637+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:36:24.640+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:36:24.640+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:36:32.923+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:36:33.277+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:36:33.277+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T20:36:33.306+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:36:33.306+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 19:42:00+00:00, run_after=2024-07-13 19:48:00+00:00
+[2024-07-13T20:36:33.332+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 14.215 seconds
+[2024-07-13T20:37:10.979+0100] {processor.py:161} INFO - Started process (PID=12691) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:37:10.982+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:37:10.983+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:37:10.983+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:37:16.547+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:37:16.546+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:37:16.549+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:37:16.549+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:37:25.574+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:37:25.900+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:37:25.899+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T20:37:25.920+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:37:25.919+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 19:42:00+00:00, run_after=2024-07-13 19:48:00+00:00
+[2024-07-13T20:37:25.943+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 14.967 seconds
+[2024-07-13T20:38:01.012+0100] {processor.py:161} INFO - Started process (PID=12710) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:38:01.013+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:38:01.014+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:38:01.014+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:38:06.094+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:38:06.094+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:38:06.096+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:38:06.096+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:38:09.986+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:38:11.064+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:38:11.063+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T20:38:11.106+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:38:11.105+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 19:42:00+00:00, run_after=2024-07-13 19:48:00+00:00
+[2024-07-13T20:38:11.136+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 10.127 seconds
+[2024-07-13T20:39:04.153+0100] {processor.py:161} INFO - Started process (PID=12761) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:39:04.155+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:39:04.156+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:39:04.156+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:39:10.378+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:39:10.378+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:39:10.381+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:39:10.381+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:39:17.478+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:39:17.794+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:39:17.793+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T20:39:17.825+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:39:17.825+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 19:42:00+00:00, run_after=2024-07-13 19:48:00+00:00
+[2024-07-13T20:39:17.858+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 13.708 seconds
+[2024-07-13T20:42:01.268+0100] {processor.py:161} INFO - Started process (PID=12892) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:42:01.270+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:42:01.271+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:42:01.271+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:42:06.019+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:42:06.018+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:42:06.021+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:42:06.021+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:42:15.555+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:42:15.944+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:42:15.943+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T20:42:15.969+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:42:15.968+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 19:48:00+00:00, run_after=2024-07-13 19:54:00+00:00
+[2024-07-13T20:42:15.998+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 14.732 seconds
+[2024-07-13T20:42:51.169+0100] {processor.py:161} INFO - Started process (PID=12941) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:42:51.171+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:42:51.172+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:42:51.172+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:42:59.941+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:42:59.940+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:42:59.942+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:42:59.942+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:43:08.472+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:43:08.847+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:43:08.846+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T20:43:08.869+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:43:08.869+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 19:48:00+00:00, run_after=2024-07-13 19:54:00+00:00
+[2024-07-13T20:43:08.892+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 17.726 seconds
+[2024-07-13T20:43:43.693+0100] {processor.py:161} INFO - Started process (PID=12982) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:43:43.695+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:43:43.695+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:43:43.695+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:45:57.069+0100] {processor.py:161} INFO - Started process (PID=13115) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:45:57.071+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:45:57.072+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:45:57.072+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:46:03.060+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:46:03.060+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:46:03.062+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:46:03.062+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:46:14.031+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:46:14.398+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:46:14.398+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T20:46:14.422+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:46:14.422+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 19:35:00+00:00, run_after=2024-07-13 19:42:00+00:00
+[2024-07-13T20:46:14.448+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 17.381 seconds
+[2024-07-13T20:46:52.454+0100] {processor.py:161} INFO - Started process (PID=13148) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:46:52.456+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:46:52.457+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:46:52.456+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:46:58.400+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:46:58.399+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:46:58.402+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:46:58.402+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:47:05.363+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:47:06.775+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:47:06.774+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T20:47:06.836+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:47:06.836+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 19:35:00+00:00, run_after=2024-07-13 19:42:00+00:00
+[2024-07-13T20:47:06.973+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 14.523 seconds
+[2024-07-13T20:47:46.972+0100] {processor.py:161} INFO - Started process (PID=13190) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:47:46.973+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:47:46.974+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:47:46.974+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:47:53.961+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:47:53.960+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:47:53.963+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:47:53.963+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:48:00.944+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:48:01.329+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:48:01.329+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T20:48:01.355+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:48:01.355+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 19:35:00+00:00, run_after=2024-07-13 19:42:00+00:00
+[2024-07-13T20:48:01.378+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 14.409 seconds
+[2024-07-13T20:48:36.214+0100] {processor.py:161} INFO - Started process (PID=13219) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:48:36.216+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:48:36.217+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:48:36.217+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:48:42.280+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:48:42.280+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:48:42.282+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:48:42.282+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:48:56.559+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:48:57.606+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:48:57.604+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T20:48:57.639+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:48:57.639+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 19:35:00+00:00, run_after=2024-07-13 19:42:00+00:00
+[2024-07-13T20:48:57.737+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 21.526 seconds
+[2024-07-13T20:49:32.897+0100] {processor.py:161} INFO - Started process (PID=13275) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:49:32.899+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:49:32.900+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:49:32.899+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:49:38.788+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:49:38.788+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:49:38.790+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:49:38.790+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:49:51.125+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:49:52.038+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:49:52.037+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T20:49:52.059+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:49:52.059+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 19:42:00+00:00, run_after=2024-07-13 19:49:00+00:00
+[2024-07-13T20:49:52.080+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 19.185 seconds
+[2024-07-13T20:50:40.379+0100] {processor.py:161} INFO - Started process (PID=13324) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:50:40.381+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:50:40.382+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:50:40.381+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:50:49.968+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:50:49.967+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:50:49.975+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:50:49.975+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:50:56.412+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:50:56.707+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:50:56.707+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T20:50:56.730+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:50:56.730+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 19:49:00+00:00, run_after=2024-07-13 19:56:00+00:00
+[2024-07-13T20:50:56.754+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 16.377 seconds
+[2024-07-13T20:52:47.118+0100] {processor.py:161} INFO - Started process (PID=13404) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:52:47.119+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:52:47.120+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:52:47.120+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:52:52.784+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:52:52.784+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:52:52.786+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:52:52.786+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:53:02.889+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:53:03.219+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:53:03.218+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T20:53:03.240+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:53:03.240+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 19:49:00+00:00, run_after=2024-07-13 19:56:00+00:00
+[2024-07-13T20:53:03.263+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 16.148 seconds
+[2024-07-13T20:53:37.519+0100] {processor.py:161} INFO - Started process (PID=13431) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:53:37.521+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:53:37.522+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:53:37.521+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:53:41.985+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:53:41.984+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:53:41.987+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:53:41.986+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:53:45.511+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:53:45.724+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:53:45.724+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T20:53:45.744+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:53:45.744+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 19:49:00+00:00, run_after=2024-07-13 19:56:00+00:00
+[2024-07-13T20:53:45.771+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 8.254 seconds
+[2024-07-13T20:54:18.808+0100] {processor.py:161} INFO - Started process (PID=13456) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:54:18.809+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:54:18.809+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:54:18.809+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:54:22.555+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:54:22.554+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:54:22.556+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:54:22.556+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:54:27.491+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:54:27.979+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:54:27.979+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T20:54:28.003+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:54:28.002+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 19:49:00+00:00, run_after=2024-07-13 19:56:00+00:00
+[2024-07-13T20:54:28.025+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 9.219 seconds
+[2024-07-13T20:55:02.478+0100] {processor.py:161} INFO - Started process (PID=13473) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:55:02.480+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:55:02.481+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:55:02.480+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:55:06.446+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:55:06.445+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:55:06.447+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:55:06.447+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:55:11.770+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:55:12.072+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:55:12.072+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T20:55:12.096+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:55:12.096+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 19:49:00+00:00, run_after=2024-07-13 19:56:00+00:00
+[2024-07-13T20:55:12.119+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 9.645 seconds
+[2024-07-13T20:55:45.930+0100] {processor.py:161} INFO - Started process (PID=13493) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:55:45.932+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:55:45.933+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:55:45.932+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:55:52.754+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:55:52.753+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:55:52.756+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:55:52.756+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:55:59.059+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:55:59.402+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:55:59.402+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T20:55:59.423+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:55:59.423+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 19:49:00+00:00, run_after=2024-07-13 19:56:00+00:00
+[2024-07-13T20:55:59.446+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 13.518 seconds
+[2024-07-13T20:56:45.631+0100] {processor.py:161} INFO - Started process (PID=13530) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:56:45.633+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:56:45.634+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:56:45.634+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:56:50.244+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:56:50.243+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:56:50.246+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:56:50.246+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:56:54.839+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:56:55.097+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:56:55.097+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T20:56:55.119+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:56:55.118+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 19:56:00+00:00, run_after=2024-07-13 20:00:00+00:00
+[2024-07-13T20:56:55.139+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 9.511 seconds
+[2024-07-13T20:58:37.188+0100] {processor.py:161} INFO - Started process (PID=13588) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:58:37.190+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:58:37.191+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:58:37.191+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:58:41.594+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:58:41.594+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:58:41.596+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:58:41.596+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:58:47.901+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:58:48.183+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:58:48.182+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T20:58:48.206+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:58:48.206+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 19:56:00+00:00, run_after=2024-07-13 20:00:00+00:00
+[2024-07-13T20:58:48.227+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 11.041 seconds
+[2024-07-13T20:59:22.051+0100] {processor.py:161} INFO - Started process (PID=13610) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:59:22.055+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T20:59:22.056+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:59:22.056+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:59:26.942+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:59:26.942+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T20:59:26.944+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:59:26.944+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T20:59:35.202+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T20:59:35.537+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:59:35.536+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T20:59:35.560+0100] {logging_mixin.py:188} INFO - [2024-07-13T20:59:35.560+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 19:56:00+00:00, run_after=2024-07-13 20:00:00+00:00
+[2024-07-13T20:59:35.587+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 13.547 seconds
+[2024-07-13T21:00:23.212+0100] {processor.py:161} INFO - Started process (PID=13634) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:00:23.214+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T21:00:23.215+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:00:23.215+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:00:27.884+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:00:27.883+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T21:00:27.885+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:00:27.885+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T21:00:31.276+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:00:31.535+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:00:31.534+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T21:00:31.556+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:00:31.556+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 20:00:00+00:00, run_after=2024-07-13 20:07:00+00:00
+[2024-07-13T21:00:31.577+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 8.367 seconds
+[2024-07-13T21:02:45.207+0100] {processor.py:161} INFO - Started process (PID=13706) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:02:45.209+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T21:02:45.210+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:02:45.210+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:02:50.007+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:02:50.007+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T21:02:50.009+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:02:50.009+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T21:02:56.839+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:02:57.166+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:02:57.166+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T21:02:57.191+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:02:57.190+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 20:00:00+00:00, run_after=2024-07-13 20:07:00+00:00
+[2024-07-13T21:02:57.220+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 12.016 seconds
+[2024-07-13T21:03:31.314+0100] {processor.py:161} INFO - Started process (PID=13725) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:03:31.316+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T21:03:31.316+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:03:31.316+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:03:35.755+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:03:35.755+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T21:03:35.757+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:03:35.757+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T21:03:49.513+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:03:50.053+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:03:50.051+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T21:03:50.094+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:03:50.094+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 20:00:00+00:00, run_after=2024-07-13 20:07:00+00:00
+[2024-07-13T21:03:50.121+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 18.809 seconds
+[2024-07-13T21:04:24.065+0100] {processor.py:161} INFO - Started process (PID=13766) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:04:24.067+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T21:04:24.067+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:04:24.067+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:04:28.591+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:04:28.590+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T21:04:28.593+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:04:28.593+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T21:04:33.481+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:04:33.791+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:04:33.791+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T21:04:33.815+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:04:33.815+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 20:00:00+00:00, run_after=2024-07-13 20:07:00+00:00
+[2024-07-13T21:04:33.835+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 9.772 seconds
+[2024-07-13T21:05:07.596+0100] {processor.py:161} INFO - Started process (PID=13776) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:05:07.598+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T21:05:07.598+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:05:07.598+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:05:12.064+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:05:12.063+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T21:05:12.066+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:05:12.065+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T21:05:16.280+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:05:16.540+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:05:16.539+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T21:05:16.563+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:05:16.562+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 20:00:00+00:00, run_after=2024-07-13 20:07:00+00:00
+[2024-07-13T21:05:16.587+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 8.995 seconds
+[2024-07-13T21:05:50.245+0100] {processor.py:161} INFO - Started process (PID=13785) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:05:50.246+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T21:05:50.247+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:05:50.247+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:05:54.536+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:05:54.536+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T21:05:54.538+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:05:54.538+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T21:05:58.143+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:05:58.408+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:05:58.408+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T21:05:58.432+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:05:58.432+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 20:00:00+00:00, run_after=2024-07-13 20:07:00+00:00
+[2024-07-13T21:05:58.454+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 8.211 seconds
+[2024-07-13T21:06:31.866+0100] {processor.py:161} INFO - Started process (PID=13793) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:06:31.867+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T21:06:31.867+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:06:31.867+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:06:35.648+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:06:35.647+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T21:06:35.650+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:06:35.650+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T21:06:40.054+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:06:40.349+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:06:40.348+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T21:06:40.382+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:06:40.381+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 20:00:00+00:00, run_after=2024-07-13 20:07:00+00:00
+[2024-07-13T21:06:40.409+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 8.545 seconds
+[2024-07-13T21:07:32.115+0100] {processor.py:161} INFO - Started process (PID=13827) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:07:32.117+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T21:07:32.118+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:07:32.118+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:07:39.016+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:07:39.016+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T21:07:39.019+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:07:39.018+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T21:07:46.339+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:07:46.841+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:07:46.841+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T21:07:46.884+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:07:46.884+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 20:07:00+00:00, run_after=2024-07-13 20:14:00+00:00
+[2024-07-13T21:07:46.918+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 14.805 seconds
+[2024-07-13T21:10:11.664+0100] {processor.py:161} INFO - Started process (PID=13930) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:10:11.666+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T21:10:11.667+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:10:11.667+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:10:16.196+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:10:16.196+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T21:10:16.198+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:10:16.198+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T21:10:25.399+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:10:25.774+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:10:25.774+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T21:10:25.800+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:10:25.799+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 20:07:00+00:00, run_after=2024-07-13 20:14:00+00:00
+[2024-07-13T21:10:25.821+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 14.159 seconds
+[2024-07-13T21:11:00.115+0100] {processor.py:161} INFO - Started process (PID=13949) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:11:00.117+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T21:11:00.118+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:11:00.118+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:11:04.569+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:11:04.568+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T21:11:04.570+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:11:04.570+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T21:11:08.869+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:11:09.149+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:11:09.149+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T21:11:09.173+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:11:09.173+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 20:07:00+00:00, run_after=2024-07-13 20:14:00+00:00
+[2024-07-13T21:11:09.200+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 9.088 seconds
+[2024-07-13T21:11:45.146+0100] {processor.py:161} INFO - Started process (PID=13971) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:11:45.147+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T21:11:45.149+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:11:45.148+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:11:49.901+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:11:49.899+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T21:11:49.903+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:11:49.902+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T21:12:01.839+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:12:02.242+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:12:02.241+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T21:12:02.325+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:12:02.324+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 20:07:00+00:00, run_after=2024-07-13 20:14:00+00:00
+[2024-07-13T21:12:02.362+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 17.219 seconds
+[2024-07-13T21:12:36.422+0100] {processor.py:161} INFO - Started process (PID=13986) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:12:36.424+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T21:12:36.424+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:12:36.424+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:12:40.903+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:12:40.902+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T21:12:40.905+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:12:40.905+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T21:12:45.368+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:12:45.588+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:12:45.587+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T21:12:45.608+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:12:45.607+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 20:07:00+00:00, run_after=2024-07-13 20:14:00+00:00
+[2024-07-13T21:12:45.628+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 9.209 seconds
+[2024-07-13T21:13:18.956+0100] {processor.py:161} INFO - Started process (PID=13995) to work on /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:13:18.957+0100] {processor.py:830} INFO - Processing file /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py for tasks to queue
+[2024-07-13T21:13:18.958+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:13:18.958+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:13:23.541+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:13:23.540+0100] {config.py:58} INFO - PyTorch version 2.2.2 available.
+[2024-07-13T21:13:23.543+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:13:23.542+0100] {config.py:70} INFO - Polars version 1.1.0 available.
+[2024-07-13T21:13:31.882+0100] {processor.py:840} INFO - DAG(s) 'pleaserun' retrieved from /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py
+[2024-07-13T21:13:32.265+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:13:32.264+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-13T21:13:32.292+0100] {logging_mixin.py:188} INFO - [2024-07-13T21:13:32.292+0100] {dag.py:3954} INFO - Setting next_dagrun for pleaserun to 2024-07-13 20:07:00+00:00, run_after=2024-07-13 20:14:00+00:00
+[2024-07-13T21:13:32.322+0100] {processor.py:183} INFO - Processing /Users/mak/Desktop/Code_With_Me/Sentiment project/dags/dag2.py took 13.367 seconds
