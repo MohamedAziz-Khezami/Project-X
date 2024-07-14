@@ -11,7 +11,6 @@ import datetime as dt
 from pysentimiento import create_analyzer
 from prophet import Prophet
 import csv
-import duckdb
 import yfinance as yf
 
 
@@ -22,7 +21,7 @@ apikey = "pub_484350d0460b3a6d9a45319e3f2fcfe2f8dc3"
 
 
 
-@dag('pleaserun',start_date=dt.datetime.now(), schedule_interval='*/10 * * * *')
+@dag('morning',start_date=dt.datetime.now(), schedule_interval='0 8 * * 1-5')
 def dag1():
 
     @task
@@ -32,19 +31,34 @@ def dag1():
             api = NewsDataApiClient(apikey=apikey)
 
 
-            response = api.news_api( q= 's&p500' ,language="en")
+            response = api.news_api( q = 's&p500' ,language="en", )
             
             articles = pd.DataFrame(response['results'])
+            
             articles = articles[['pubDate', 'title']]
+            
             articles.pubDate = pd.to_datetime(articles.pubDate)
+            
             articles.pubDate = articles.pubDate.apply(lambda x : x.strftime('%Y-%m-%d'))
+            
             articles.pubDate = articles.pubDate.astype(object)
+            
+            articles.to_csv('news_feed.csv',index=False) #for the news feed feature
+            
             articles = articles.groupby('pubDate')['title'].sum()
+            
             articles = pd.DataFrame(articles)
+            
             articles = articles.reset_index()
+            
             articles = articles[articles['pubDate'] == str(dt.date.today() - dt.timedelta(days = 1))]
+
             articles.loc[:,'pubDate'] = str(dt.date.today())
+                        
             articles = articles.rename(columns = {'pubDate' : 'ds'})
+            
+            
+            
             return articles
 
 
@@ -71,14 +85,18 @@ def dag1():
         
         articles = articles[['ds', 'negative', 'positive', 'neutral', 'anger', 'disgust', 'fear', 'joy', 'sadness', 'surprise', 'others']]
         
-        articles.to_csv('no_close_fit.csv',index=False)
+        tosave = articles.copy()
+        
+        tosave.loc[:,'ds'] = str(dt.date.today() - dt.timedelta(days = 1))
+        
+        tosave.to_csv('no_close_fit.csv',index=False)
         
         return articles
             
 
     @task
     def fit_prediction(articles):
-        fit_data = pd.read_csv('/Users/mak/Desktop/Code_With_Me/Sentiment project/Dataset.csv')
+        fit_data = pd.read_csv('/Users/mak/Desktop/Code_With_Me/Sentiment project/fit_data.csv')
         fit_data = fit_data.rename(columns = {'Date': 'ds', 'Close':'y'})
         p = Prophet()
         p.add_regressor('negative')
@@ -100,7 +118,9 @@ def dag1():
         prediction = prediction[['ds','yhat']]
         
         prediction.ds = prediction.ds.apply(lambda x : x.strftime('%Y-%m-%d'))
+        
         prediction.ds = prediction.ds.astype(object)
+        
         row = list(prediction.iloc[0])
         
         
@@ -122,6 +142,10 @@ def dag1():
         sp = sp[['Date', 'Close']]
         
         sp.to_csv('sp500.csv',index=False)
+        
+        splast = sp.iloc[-1]
+        
+        
 
 
     
