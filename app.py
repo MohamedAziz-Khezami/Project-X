@@ -6,7 +6,6 @@ import pandas as pd
 import numpy as np
 import yfinance as yf
 
-
 sp500 =pd.read_csv('/Users/mak/Desktop/Code_With_Me/Sentiment project/sp500.csv')
 
 
@@ -75,11 +74,17 @@ def main():
             
         with col3:
             st.title("Stocks News")
+            
             news = pd.read_csv('/Users/mak/Desktop/Code_With_Me/Sentiment project/news_feed.csv')
-            j = 1
-            for i in news.title:
-                st.write(j,":",i)
-                j+=1
+            with st.container(height=230):
+                j = 1
+                for i in news.title:
+                    st.write(j,":",i)
+                    j+=1
+                    
+                
+                
+
         
         
         
