@@ -22,7 +22,7 @@ apikey = "pub_484350d0460b3a6d9a45319e3f2fcfe2f8dc3"
 
 
 
-@dag('night',start_date=dt.datetime(2024,), schedule_interval='0 23 * * 1-5')
+@dag('night',start_date=dt.datetime(2024,6,6) , schedule_interval='0 2 * * 1-5')
 def dag2():
 
     @task

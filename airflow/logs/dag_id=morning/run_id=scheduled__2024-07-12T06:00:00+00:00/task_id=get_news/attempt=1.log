@@ -1,0 +1,38 @@
+[2024-07-15T20:31:18.647+0100] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-15T20:31:18.721+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: morning.get_news scheduled__2024-07-12T06:00:00+00:00 [queued]>
+[2024-07-15T20:31:18.735+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: morning.get_news scheduled__2024-07-12T06:00:00+00:00 [queued]>
+[2024-07-15T20:31:18.735+0100] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-07-15T20:31:18.751+0100] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): get_news> on 2024-07-12 06:00:00+00:00
+[2024-07-15T20:31:18.773+0100] {logging_mixin.py:188} WARNING - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=2036) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-07-15T20:31:18.779+0100] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'morning', 'get_news', 'scheduled__2024-07-12T06:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/dag1.py', '--cfg-path', '/var/folders/ml/zd6cs33j1gs1prd5lpns9pnc0000gn/T/tmp155_f9n1']
+[2024-07-15T20:31:18.782+0100] {standard_task_runner.py:63} INFO - Started process 2062 to run task
+[2024-07-15T20:31:18.782+0100] {standard_task_runner.py:91} INFO - Job 3: Subtask get_news
+[2024-07-15T20:31:18.867+0100] {task_command.py:426} INFO - Running <TaskInstance: morning.get_news scheduled__2024-07-12T06:00:00+00:00 [running]> on host MAKs-MacBook-Pro.local
+[2024-07-15T20:31:18.943+0100] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='morning' AIRFLOW_CTX_TASK_ID='get_news' AIRFLOW_CTX_EXECUTION_DATE='2024-07-12T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-07-12T06:00:00+00:00'
+[2024-07-15T20:31:18.946+0100] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-15T20:31:21.082+0100] {python.py:237} INFO - Done. Returned value was:            ds                                              title
+0  2024-07-15  S&P 500: Something Major, Week Starting July 1...
+[2024-07-15T20:31:21.092+0100] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-15T20:31:21.156+0100] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=morning, task_id=get_news, run_id=scheduled__2024-07-12T06:00:00+00:00, execution_date=20240712T060000, start_date=20240715T193118, end_date=20240715T193121
+[2024-07-15T20:31:21.234+0100] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-07-15T20:31:21.283+0100] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-07-15T20:31:21.286+0100] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-07-15T20:34:42.305+0100] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-15T20:34:42.351+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: morning.get_news scheduled__2024-07-12T06:00:00+00:00 [queued]>
+[2024-07-15T20:34:42.359+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: morning.get_news scheduled__2024-07-12T06:00:00+00:00 [queued]>
+[2024-07-15T20:34:42.359+0100] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-07-15T20:34:42.370+0100] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): get_news> on 2024-07-12 06:00:00+00:00
+[2024-07-15T20:34:42.391+0100] {logging_mixin.py:188} WARNING - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=2332) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-07-15T20:34:42.393+0100] {standard_task_runner.py:63} INFO - Started process 2356 to run task
+[2024-07-15T20:34:42.398+0100] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'morning', 'get_news', 'scheduled__2024-07-12T06:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/dag1.py', '--cfg-path', '/var/folders/ml/zd6cs33j1gs1prd5lpns9pnc0000gn/T/tmpn0obt027']
+[2024-07-15T20:34:42.401+0100] {standard_task_runner.py:91} INFO - Job 4: Subtask get_news
+[2024-07-15T20:34:42.517+0100] {task_command.py:426} INFO - Running <TaskInstance: morning.get_news scheduled__2024-07-12T06:00:00+00:00 [running]> on host MAKs-MacBook-Pro.local
+[2024-07-15T20:34:42.592+0100] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='morning' AIRFLOW_CTX_TASK_ID='get_news' AIRFLOW_CTX_EXECUTION_DATE='2024-07-12T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-07-12T06:00:00+00:00'
+[2024-07-15T20:34:42.595+0100] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-15T20:34:43.604+0100] {python.py:237} INFO - Done. Returned value was:            ds                                              title
+0  2024-07-15  S&P 500: Something Major, Week Starting July 1...
+[2024-07-15T20:34:43.611+0100] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-15T20:34:43.632+0100] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=morning, task_id=get_news, run_id=scheduled__2024-07-12T06:00:00+00:00, execution_date=20240712T060000, start_date=20240715T193442, end_date=20240715T193443
+[2024-07-15T20:34:43.651+0100] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-07-15T20:34:43.674+0100] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-07-15T20:34:43.675+0100] {local_task_job_runner.py:222} INFO - ::endgroup::

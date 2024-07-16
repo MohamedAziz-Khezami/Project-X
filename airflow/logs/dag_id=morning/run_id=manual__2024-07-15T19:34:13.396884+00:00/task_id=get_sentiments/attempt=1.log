@@ -1,0 +1,21 @@
+[2024-07-15T20:37:20.597+0100] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-15T20:37:20.637+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: morning.get_sentiments manual__2024-07-15T19:34:13.396884+00:00 [queued]>
+[2024-07-15T20:37:20.644+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: morning.get_sentiments manual__2024-07-15T19:34:13.396884+00:00 [queued]>
+[2024-07-15T20:37:20.644+0100] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-07-15T20:37:20.656+0100] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): get_sentiments> on 2024-07-15 19:34:13.396884+00:00
+[2024-07-15T20:37:20.670+0100] {logging_mixin.py:188} WARNING - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=2493) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-07-15T20:37:20.671+0100] {standard_task_runner.py:63} INFO - Started process 2506 to run task
+[2024-07-15T20:37:20.672+0100] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'morning', 'get_sentiments', 'manual__2024-07-15T19:34:13.396884+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/dag1.py', '--cfg-path', '/var/folders/ml/zd6cs33j1gs1prd5lpns9pnc0000gn/T/tmpm6low41z']
+[2024-07-15T20:37:20.674+0100] {standard_task_runner.py:91} INFO - Job 9: Subtask get_sentiments
+[2024-07-15T20:37:20.756+0100] {task_command.py:426} INFO - Running <TaskInstance: morning.get_sentiments manual__2024-07-15T19:34:13.396884+00:00 [running]> on host MAKs-MacBook-Pro.local
+[2024-07-15T20:37:20.981+0100] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='morning' AIRFLOW_CTX_TASK_ID='get_sentiments' AIRFLOW_CTX_EXECUTION_DATE='2024-07-15T19:34:13.396884+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-15T19:34:13.396884+00:00'
+[2024-07-15T20:37:20.993+0100] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-15T20:37:25.919+0100] {python.py:237} INFO - Done. Returned value was:            ds  negative  positive  ...   sadness  surprise    others
+0  2024-07-15  0.004657  0.149396  ...  0.000788  0.003027  0.979555
+
+[1 rows x 11 columns]
+[2024-07-15T20:37:25.940+0100] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-15T20:37:25.963+0100] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=morning, task_id=get_sentiments, run_id=manual__2024-07-15T19:34:13.396884+00:00, execution_date=20240715T193413, start_date=20240715T193720, end_date=20240715T193725
+[2024-07-15T20:37:26.022+0100] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-07-15T20:37:26.045+0100] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-07-15T20:37:26.046+0100] {local_task_job_runner.py:222} INFO - ::endgroup::

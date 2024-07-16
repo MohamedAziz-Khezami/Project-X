@@ -1,0 +1,1 @@
+[2024-07-15T20:07:47.127+0100] {scheduler_job_runner.py:769} ERROR - Executor reports task instance <TaskInstance: morning.fit_prediction manual__2024-07-15T19:04:16.638651+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

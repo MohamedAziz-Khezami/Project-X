@@ -21,7 +21,7 @@ apikey = "pub_484350d0460b3a6d9a45319e3f2fcfe2f8dc3"
 
 
 
-@dag('morning',start_date=dt.datetime.now(), schedule_interval='0 8 * * 1-5')
+@dag('morning',start_date=dt.datetime(2024,6,6), schedule_interval='0 7 * * 1-5')
 def dag1():
 
     @task
@@ -43,6 +43,8 @@ def dag1():
             
             articles.pubDate = articles.pubDate.astype(object)
             
+            articles = articles.drop_duplicates()
+            
             articles.to_csv('news_feed.csv',index=False) #for the news feed feature
             
             articles = articles.groupby('pubDate')['title'].sum()
@@ -51,7 +53,7 @@ def dag1():
             
             articles = articles.reset_index()
             
-            articles = articles[articles['pubDate'] == str(dt.date.today() - dt.timedelta(days = 1))]
+            articles = articles[articles['pubDate'] == str(articles.pubDate.max())]
 
             articles.loc[:,'pubDate'] = str(dt.date.today())
                         
@@ -87,8 +89,7 @@ def dag1():
         
         tosave = articles.copy()
         
-        tosave.loc[:,'ds'] = str(dt.date.today() - dt.timedelta(days = 1))
-        
+        tosave.loc[:,'ds'] = str(dt.date.today())
         tosave.to_csv('no_close_fit.csv',index=False)
         
         return articles
