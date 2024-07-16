@@ -90,14 +90,14 @@ def dag1():
         tosave = articles.copy()
         
         tosave.loc[:,'ds'] = str(dt.date.today())
-        tosave.to_csv('no_close_fit.csv',index=False)
+        tosave.to_csv('/Users/mak/Desktop/Code_With_Me/Sentiment project/assets/no_close_fit.csv',index=False)
         
         return articles
             
 
     @task
     def fit_prediction(articles):
-        fit_data = pd.read_csv('/Users/mak/Desktop/Code_With_Me/Sentiment project/fit_data.csv')
+        fit_data = pd.read_csv('/Users/mak/Desktop/Code_With_Me/Sentiment project/assets/fit_data.csv')
         fit_data = fit_data.rename(columns = {'Date': 'ds', 'Close':'y'})
         p = Prophet()
         p.add_regressor('negative')
@@ -126,7 +126,7 @@ def dag1():
         
         
         
-        with open('/Users/mak/Desktop/Code_With_Me/Sentiment project/predictions.csv', 'a', newline='') as csvfile:
+        with open('/Users/mak/Desktop/Code_With_Me/Sentiment project/assets/predictions.csv', 'a', newline='') as csvfile:
             # Create a CSV writer object
             writer = csv.writer(csvfile)
             # Write the new row data

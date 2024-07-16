@@ -15,10 +15,6 @@ import duckdb
 import yfinance as yf
 
 
-sentiments = create_analyzer(task="sentiment", lang="en")
-emotions = create_analyzer(task='emotion', lang="en")
-
-apikey = "pub_484350d0460b3a6d9a45319e3f2fcfe2f8dc3"
 
 
 
@@ -32,7 +28,7 @@ def dag2():
 
         spnew = spnew.reset_index()
 
-        spnew.to_csv('/Users/mak/Desktop/Code_With_Me/Sentiment project/sp500.csv',index=False)
+        spnew.to_csv('/Users/mak/Desktop/Code_With_Me/Sentiment project/assets/sp500.csv',index=False)
 
         spn = spnew[['Close']]
 
@@ -44,17 +40,17 @@ def dag2():
         lastclose = lastclose.drop('index', axis=1)
 
 
-        oldfit = pd.read_csv('/Users/mak/Desktop/Code_With_Me/Sentiment project/no_close_fit.csv')
+        oldfit = pd.read_csv('/Users/mak/Desktop/Code_With_Me/Sentiment project/assets/no_close_fit.csv')
 
         new = pd.concat([oldfit, lastclose], axis=1)
 
         new = new.rename(columns = {'ds' : 'Date'})
 
-        fit_data = pd.read_csv('/Users/mak/Desktop/Code_With_Me/Sentiment project/fit_data.csv')
+        fit_data = pd.read_csv('/Users/mak/Desktop/Code_With_Me/Sentiment project/assets/fit_data.csv')
 
         fit_data = pd.concat([fit_data, new], axis=0)
 
-        fit_data.to_csv('/Users/mak/Desktop/Code_With_Me/Sentiment project/fit_data.csv', index=False)
+        fit_data.to_csv('/Users/mak/Desktop/Code_With_Me/Sentiment project/assets/fit_data.csv', index=False)
                 
 
 

@@ -6,10 +6,10 @@ import pandas as pd
 import numpy as np
 import yfinance as yf
 
-sp500 =pd.read_csv('/Users/mak/Desktop/Code_With_Me/Sentiment project/sp500.csv')
+sp500 =pd.read_csv('/Users/mak/Desktop/Code_With_Me/Sentiment project/assets/sp500.csv')
 
 
-pred = pd.read_csv('/Users/mak/Desktop/Code_With_Me/Sentiment project/pred.csv')
+pred = pd.read_csv('/Users/mak/Desktop/Code_With_Me/Sentiment project/assets/pred.csv')
 
 sp500 = sp500.reset_index()
 
@@ -31,7 +31,7 @@ def main():
         col1 , col2, col3 = st.columns([3,0.2,1.5])
         
         with col1 :
-            predictions= pd.read_csv("/Users/mak/Desktop/Code_With_Me/Sentiment project/predictions.csv")
+            predictions= pd.read_csv("/Users/mak/Desktop/Code_With_Me/Sentiment project/assets/predictions.csv")
 
             chart1 = alt.Chart(predictions).mark_circle(color='blue').encode(
             x=alt.X('ds', axis=alt.Axis(title='Date'), type='temporal'),
@@ -75,7 +75,7 @@ def main():
         with col3:
             st.title("Stocks News")
             
-            news = pd.read_csv('/Users/mak/Desktop/Code_With_Me/Sentiment project/news_feed.csv')
+            news = pd.read_csv('/Users/mak/Desktop/Code_With_Me/Sentiment project/assets/news_feed.csv')
             with st.container(height=230):
                 j = 1
                 for i in news.title:
